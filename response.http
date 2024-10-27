@@ -1,0 +1,50 @@
+POST  http://localhost:3001/create_todo
+Content-Type: application/json
+
+{
+     "id": "1f86499d-d594-4605-9b06-8cf154059d8e",
+     "todo":"Create todo"
+}
+
+### 
+
+PUT http://localhost:3001/edit_todo/1f86499d-d594-4605-9b06-8cf154059d8d
+Content-Type: application/json 
+
+{
+   "todo":"My New Task" 
+}
+
+
+### 
+
+DELETE  http://localhost:3001/delete_todo/1f86499d-d594-4605-9b06-8cf154059d8d
+Content-Type: application/json 
+
+
+### 
+
+DELETE  http://localhost:3001/delete_all_todo
+Content-Type: application/json 
+
+
+### 
+
+GET  http://localhost:3001/get_all_todo
+Content-Type: application/json 
+
+
+### 
+
+GET  http://localhost:3001/get_todo/1f86499d-d594-4605-9b06-8cf154059d8d
+Content-Type: application/json 
+
+###
+
+POST http://localhost:3001/product_create
+Content-Type: application/json 
+
+### 
+
+GET http://localhost:3001/total_value_of_product 
+Content-Type: application/json 
